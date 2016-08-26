@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Sitecore GUID Transformer",
+  "version": "1.0",
+
+  "description": "Transform Sitecore GUIDs for easy use in other forms.",
+
+  "homepage_url": "https://github.com/x2boarder/guid-transformer",
+  "icons": {
+    "96": "icons/star-icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/star-icon.png",
+    "default_title": "GUID Transformer",
+    "default_popup": "popup/transform.html"
+  }
+
+}
