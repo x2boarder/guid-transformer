@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sitecore GUID Transformer</title>
+        <link rel="stylesheet" href="transform.css">
+    </head>
+    <body>
+
+        <div class="inputs">
+            <textarea id="guid" placeholder="Paste GUID Here (One per line)"></textarea>
+            <button id="transformButton">Transform It!</button>
+            <button id="clearButton">Clear</button>
+        </div>
+        <div class="output clearfix">
+            <h1>Converted GUIDs</h1>
+            <textarea id="output-txt"></textarea>
+        </div>
+        <div class="output">
+            <h1>Image Tags</h1>
+            <textarea id="output-img"></textarea>
+        </div>
+        <div class="output">
+            <h1>Link</h1>
+            <textarea id="output-link"></textarea>
+        </div>
+        <script src="transform.js"></script>
+    </body>
+</html>

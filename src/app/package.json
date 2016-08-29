@@ -1,0 +1,21 @@
+{
+  "name": "Transformer",
+  "version": "1.0.0",
+  "description": "Simple guid transformer",
+  "license": "MIT",
+  "main": "js/transform.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x2boarder/guid-transformer"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-sass": "^2.3.2",    
+    "require-dir": "^0.3.0"
+  }
+}
